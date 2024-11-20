@@ -7,9 +7,8 @@ import Navbar from './Navbar'
 const Header = () => {
   return (
     <>
-    <section className={style.bg}>
-        <div className="container">
-            <header>
+        
+            {/* <header>
                 <nav className={head.nav}>
                     <div className={head.logo}>
                         <Image src="/logo.jpg"
@@ -20,9 +19,9 @@ const Header = () => {
                     </div>
                     <Navbar/>
                 </nav>
-            </header>
-        </div>
-    </section>
+            </header> */}
+
+            <Navbar/>
       
     </>
   )

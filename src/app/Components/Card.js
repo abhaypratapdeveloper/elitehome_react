@@ -9,6 +9,7 @@ const Card = ({text,image}) => {
         <Image src={image}
         width={230}
         height={230}
+        alt="Decor images"
         />
         <h3>{text}</h3>
       </div>
