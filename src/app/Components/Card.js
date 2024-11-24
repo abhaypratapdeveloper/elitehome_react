@@ -7,11 +7,11 @@ const Card = ({text,image}) => {
     <>
       <div className={car.cd}>
         <Image src={image}
-        width={230}
-        height={230}
+        width={250}
+        height={250}
         alt="Decor images"
         />
-        <h3>{text}</h3>
+        <h1>{text}</h1>
       </div>
     </>
   )

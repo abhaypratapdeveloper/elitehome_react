@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min'; // Import Bootstrap JavaScript (for features like dropdowns and collapse)
+// import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+// import 'bootstrap/dist/js/bootstrap.bundle.min'; // Import Bootstrap JavaScript (for features like dropdowns and collapse)
 
 const Navbar = () => {
   return (
