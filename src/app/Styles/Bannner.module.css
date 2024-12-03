@@ -1,16 +1,75 @@
-.net{
-    width:90%;
-    margin:auto;
-      display:flex;
-      margin-top: 50px;
-      padding:50px;
-      justify-content: space-between;
-      background-color:#b93d50;
-    }
-  .net1{
-    justify-content: center;
-    margin-top:50px;
-    width:50%;
-    font-size: 20px;
+/* Main container */
+.net {
+  max-height: max-content;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  gap: 20px;
+}
+
+/* Image container */
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Text content */
+.net1 {
+  flex: 1;
+  text-align: left;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.net1 h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.net1 p {
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .net {
+    flex-direction: column;
+    padding: 30px;
   }
-  
+
+  .imageContainer {
+    margin-bottom: 20px;
+  }
+
+  .net1 h1 {
+    font-size: 1.8rem;
+  }
+
+  .net1 p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .net1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .net1 p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
