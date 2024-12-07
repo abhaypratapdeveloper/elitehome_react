@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardFooter, Button } from "@nextui-org/react";
 import Image from "next/image";
+import card from '@/app/Styles/Card.module.css'
 
 const CustomCard = ({ image, text }) => {
   return (

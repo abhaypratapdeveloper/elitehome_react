@@ -7,22 +7,22 @@ const ContactPage = () => {
         <h1 className="text-center mb-4">Contact Us</h1>
         <form>
           <div className="row mb-3">
-            <div className="col-md-6">
+            <div className="col-md-4">
               <label htmlFor="name" className="form-label">Name</label>
               <input type="text" className="form-control" id="name" placeholder="Your Name" required />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-4">
               <label htmlFor="email" className="form-label">Email</label>
               <input type="email" className="form-control" id="email" placeholder="Your Email" required />
             </div>
           </div>
 
           <div className="row mb-3">
-            <div className="col-md-6">
+            <div className="col-md-4">
               <label htmlFor="projectLocation" className="form-label">Project Location</label>
               <input type="text" className="form-control" id="projectLocation" placeholder="Project Location" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-4">
               <label htmlFor="city" className="form-label">City</label>
               <input type="text" className="form-control" id="city" placeholder="City" />
             </div>
@@ -39,12 +39,12 @@ const ContactPage = () => {
             </div>
           </div>
 
-          <div className="mb-4">
+          <div className="mb-4" style={{text:"center"}}>
             <label htmlFor="message" className="form-label">Tell Us More</label>
             <textarea
               className="form-control"
               id="message"
-              rows="4"
+              rows="3"
               placeholder="Share more details about your project..."
             ></textarea>
           </div>

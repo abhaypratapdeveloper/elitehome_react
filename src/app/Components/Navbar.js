@@ -2,12 +2,13 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import head from '@/app/Styles/Header.module.css'
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="">
           Navbar
         </a>
         <button
@@ -30,7 +31,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link
+                Menu
               </a>
             </li>
             <li className="nav-item dropdown">
@@ -42,22 +43,22 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Services
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    Modular Interior
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    Offices Interior
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Something else here
+                    Complete House Interior
                   </a>
                 </li>
               </ul>
