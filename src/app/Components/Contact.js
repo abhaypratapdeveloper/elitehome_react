@@ -47,6 +47,7 @@ const ContactPage = () => {
               rows="3"
               placeholder="Share more details about your project..."
             ></textarea>
+            
           </div>
 
           <div className="text-center">
