@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
         
-            {/* <header>
+            <header>
                 <nav className={head.nav}>
                     <div className={head.logo}>
                         <Image src="/logo.jpg"
@@ -19,10 +19,7 @@ const Header = () => {
                     </div>
                     <Navbar/>
                 </nav>
-            </header> */}
-
-            <Navbar/>
-      
+            </header> 
     </>
   )
 }
